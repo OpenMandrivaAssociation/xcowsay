@@ -16,8 +16,7 @@ BuildRequires:  dbus-glib-devel
 BuildRoot:      %{_tmppath}/%{name}-%{version}
 
 %description
-xcowsay displays a cute cow and message on your desktop. Inspired by the
-original cowsay.
+xcowsay displays a cute cow and message on your desktop.
 
 xcowsay includes all these amazing features:
 - Fully configurable!
