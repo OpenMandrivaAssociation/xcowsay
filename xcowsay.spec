@@ -1,6 +1,6 @@
 %define name	xcowsay
 %define version	1.0
-%define release	%mkrel 1
+%define release	%mkrel 2
 
 Name:		%{name}
 Version:	%{version}
@@ -16,7 +16,8 @@ BuildRequires:  dbus-glib-devel
 BuildRoot:      %{_tmppath}/%{name}-%{version}
 
 %description
-xcowsay displays a cute cow and message on your desktop. Inspired by the original cowsay.
+xcowsay displays a cute cow and message on your desktop. Inspired by the
+original cowsay.
 
 xcowsay includes all these amazing features:
 - Fully configurable!
