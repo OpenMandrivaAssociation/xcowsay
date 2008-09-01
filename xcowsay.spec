@@ -1,6 +1,6 @@
 %define name	xcowsay
-%define version	1.0
-%define release	%mkrel 3
+%define version	1.1
+%define release	%mkrel 1
 
 Name:		%{name}
 Version:	%{version}
