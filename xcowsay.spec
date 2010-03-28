@@ -1,6 +1,6 @@
 %define name	xcowsay
 %define version	1.2
-%define release	%mkrel 1
+%define release	%mkrel 2
 
 Name:		%{name}
 Version:	%{version}
@@ -10,6 +10,7 @@ Group:		Toys
 License:	GPL
 URL:		http://www.doof.me.uk/xcowsay/
 Source:     http://www.nickg.me.uk/files/%{name}-%{version}.tar.gz
+Patch:      xcowsay-1.2-fix-xcowthink-args-parsing.patch
 BuildRequires:  gtk+2-devel
 BuildRequires:  dbus-devel
 BuildRequires:  dbus-glib-devel
@@ -30,6 +31,7 @@ xcowsay includes all these amazing features:
 
 %prep
 %setup -q
+%patch -p 1
 
 %build
 %configure2_5x
