@@ -8,7 +8,7 @@ Release:	%{release}
 Summary:	Displays a cute cow and message on your desktop
 Group:		Toys
 License:	GPL
-URL:		http://www.doof.me.uk/xcowsay/
+URL:		https://www.doof.me.uk/xcowsay/
 Source:     http://www.nickg.me.uk/files/%{name}-%{version}.tar.gz
 Patch:      xcowsay-1.2-fix-xcowthink-args-parsing.patch
 BuildRequires:  gtk+2-devel
