@@ -11,6 +11,11 @@ License:	GPL
 URL:		https://www.doof.me.uk/xcowsay/
 Source:     http://www.nickg.me.uk/files/%{name}-%{version}.tar.gz
 Patch:      xcowsay-1.2-fix-xcowthink-args-parsing.patch
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:  gtk+2-devel
 BuildRequires:  dbus-devel
 BuildRequires:  dbus-glib-devel
